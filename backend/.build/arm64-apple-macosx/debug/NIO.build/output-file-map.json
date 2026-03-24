@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/NIO/Exports.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/Exports.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/Exports.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/Exports.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIO.build/Exports.dia"
+  }
+}

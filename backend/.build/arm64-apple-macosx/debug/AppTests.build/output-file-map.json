@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/Tests/AppTests/AppTests.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/AppTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.dia"
+  }
+}

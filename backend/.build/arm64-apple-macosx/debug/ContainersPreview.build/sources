@@ -1,0 +1,15 @@
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Extensions/OutputSpan+Extras.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Extensions/TemporaryAllocation.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/BorrowingIteratorProtocol.swift
+'/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/BorrowingSequence+Standard Conformances.swift'
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/BorrowingSequence+Utilities.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/BorrowingSequence.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Container.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/ContainerAlgorithms.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Drain.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Producer.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Types/Borrow.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Types/Box.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Types/Inout.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Types/InputSpan.swift
+/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-collections/Sources/ContainersPreview/Types/Shared.swift

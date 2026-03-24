@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella header "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+    export *
+}

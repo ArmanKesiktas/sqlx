@@ -1,0 +1,63 @@
+name: SQLAcademy
+options:
+  bundleIdPrefix: com.arman
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+targets:
+  SQLAcademy:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: SQLAcademy
+    resources:
+      - SQLAcademy/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.arman.sqlacademy
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_ENTITLEMENTS: SQLAcademy/Resources/SQLAcademy.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: sqlx
+        INFOPLIST_KEY_CFBundleShortVersionString: $(MARKETING_VERSION)
+        INFOPLIST_KEY_CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_AI_BACKEND_BASE_URL: http://localhost:8080
+        INFOPLIST_KEY_GEMINI_API_KEY: AIzaSyDs4mIDWGpmn9bNiOWP6RrxiTUoQ76Idko
+        INFOPLIST_KEY_GEMINI_MODEL: gemini-flash-latest
+    scheme:
+      testTargets:
+        - SQLAcademyTests
+        - SQLAcademyUITests
+
+  SQLAcademyTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - SQLAcademyTests
+    dependencies:
+      - target: SQLAcademy
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+
+  SQLAcademyUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - SQLAcademyUITests
+    dependencies:
+      - target: SQLAcademy
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES

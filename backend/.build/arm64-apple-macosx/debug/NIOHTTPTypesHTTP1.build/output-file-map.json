@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio-extras/Sources/NIOHTTPTypesHTTP1/HTTP1ToHTTPCodec.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTP1ToHTTPCodec.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTP1ToHTTPCodec.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTP1ToHTTPCodec~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTP1ToHTTPCodec.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTP1ToHTTPCodec.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio-extras/Sources/NIOHTTPTypesHTTP1/HTTPToHTTP1Codec.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPToHTTP1Codec.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPToHTTP1Codec.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPToHTTP1Codec~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPToHTTP1Codec.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPToHTTP1Codec.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio-extras/Sources/NIOHTTPTypesHTTP1/HTTPTypeConversion.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPTypeConversion.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPTypeConversion.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPTypeConversion~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPTypeConversion.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/NIOHTTPTypesHTTP1.build/HTTPTypeConversion.dia"
+  }
+}

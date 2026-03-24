@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/Concurrency/WebSocket+Concurrency.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Concurrency.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Concurrency.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Concurrency~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Concurrency.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Concurrency.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/Exports.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/Exports.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/Exports.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPUpgradeRequestHandler.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/HTTPUpgradeRequestHandler.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/HTTPUpgradeRequestHandler.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/HTTPUpgradeRequestHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/HTTPUpgradeRequestHandler.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/HTTPUpgradeRequestHandler.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocket.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.dia"
+  }
+}

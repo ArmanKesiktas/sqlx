@@ -1,0 +1,141 @@
+{
+  "identifier" : "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+  "nonConsumableProducts" : [],
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "SQLX_PLUS_GROUP_001",
+      "localizations" : [],
+      "name" : "SQLx Plus",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "SQLX_MONTHLY_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited access to all SQLx Plus features, billed monthly.",
+              "displayName" : "SQLx Plus Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Tüm SQLx Plus özelliklerine sınırsız erişim, aylık faturalandırma.",
+              "displayName" : "SQLx Plus Aylık",
+              "locale" : "tr_TR"
+            },
+            {
+              "description" : "Unbegrenzter Zugriff auf alle SQLx Plus Funktionen, monatliche Abrechnung.",
+              "displayName" : "SQLx Plus Monatlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Acceso ilimitado a todas las funciones de SQLx Plus, facturación mensual.",
+              "displayName" : "SQLx Plus Mensual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Accès illimité à toutes les fonctionnalités SQLx Plus, facturation mensuelle.",
+              "displayName" : "SQLx Plus Mensuel",
+              "locale" : "fr_FR"
+            },
+            {
+              "description" : "وصول غير محدود إلى جميع ميزات SQLx Plus، فوترة شهرية.",
+              "displayName" : "SQLx Plus شهري",
+              "locale" : "ar_SA"
+            },
+            {
+              "description" : "Acesso ilimitado a todos os recursos do SQLx Plus, faturamento mensal.",
+              "displayName" : "SQLx Plus Mensal",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "com.arman.sqlacademy.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Plus Monthly",
+          "subscriptionGroupID" : "SQLX_PLUS_GROUP_001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "SQLX_YEARLY_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited access to all SQLx Plus features, billed yearly.",
+              "displayName" : "SQLx Plus Yearly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Tüm SQLx Plus özelliklerine sınırsız erişim, yıllık faturalandırma.",
+              "displayName" : "SQLx Plus Yıllık",
+              "locale" : "tr_TR"
+            },
+            {
+              "description" : "Unbegrenzter Zugriff auf alle SQLx Plus Funktionen, jährliche Abrechnung.",
+              "displayName" : "SQLx Plus Jährlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Acceso ilimitado a todas las funciones de SQLx Plus, facturación anual.",
+              "displayName" : "SQLx Plus Anual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Accès illimité à toutes les fonctionnalités SQLx Plus, facturation annuelle.",
+              "displayName" : "SQLx Plus Annuel",
+              "locale" : "fr_FR"
+            },
+            {
+              "description" : "وصول غير محدود إلى جميع ميزات SQLx Plus، فوترة سنوية.",
+              "displayName" : "SQLx Plus سنوي",
+              "locale" : "ar_SA"
+            },
+            {
+              "description" : "Acesso ilimitado a todos os recursos do SQLx Plus, faturamento anual.",
+              "displayName" : "SQLx Plus Anual",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "com.arman.sqlacademy.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Plus Yearly",
+          "subscriptionGroupID" : "SQLX_PLUS_GROUP_001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "formatVersion" : 2,
+    "major" : 1
+  }
+}

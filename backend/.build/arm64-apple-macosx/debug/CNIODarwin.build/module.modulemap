@@ -1,0 +1,4 @@
+module CNIODarwin {
+    umbrella header "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+    export *
+}

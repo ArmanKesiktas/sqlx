@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/console-kit/Sources/ConsoleKit/Exports.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/Exports.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/Exports.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/ConsoleKit.build/Exports.dia"
+  }
+}

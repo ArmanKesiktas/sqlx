@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/+Application.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+Application.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+Application.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+Application~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+Application.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+Application.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/+XCTHTTPResponse.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+XCTHTTPResponse.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+XCTHTTPResponse.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+XCTHTTPResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+XCTHTTPResponse.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/+XCTHTTPResponse.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/Exports.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/Exports.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/Exports.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/Exports.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/Exports.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/XCTApplicationTester.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTApplicationTester.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTApplicationTester.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTApplicationTester~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTApplicationTester.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTApplicationTester.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/XCTVaporContext.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporContext.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporContext.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporContext.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporContext.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/XCTVaporTests.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporTests.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporTests.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporTests.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVaporTests.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/vapor/Sources/XCTVapor/typealiases.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/typealiases.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/typealiases.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/typealiases~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/typealiases.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/XCTVapor.build/typealiases.dia"
+  }
+}

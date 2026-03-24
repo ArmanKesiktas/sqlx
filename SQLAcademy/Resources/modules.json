@@ -1,0 +1,2393 @@
+[
+  {
+    "id": "m1_select_basics",
+    "order": 1,
+    "level": "beginner",
+    "titleKey": "module.m1.title",
+    "descriptionKey": "module.m1.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m1.obj1",
+        "module.m1.obj2"
+      ],
+      "bodyKey": "module.m1.body",
+      "realWorldUseCaseKey": "module.m1.realworld",
+      "outcomeKey": "module.m1.outcome",
+      "exampleQueries": [
+        {
+          "sql": "SELECT * FROM students;",
+          "explanationKey": "module.m1.ex1.exp"
+        },
+        {
+          "sql": "SELECT name FROM students;",
+          "explanationKey": "module.m1.ex2.exp"
+        }
+      ],
+      "guidedSteps": [
+        {
+          "descriptionKey": "module.m1.guided1.desc",
+          "sql": "SELECT * FROM employees;"
+        },
+        {
+          "descriptionKey": "module.m1.guided2.desc",
+          "sql": "SELECT name, salary FROM employees;"
+        },
+        {
+          "descriptionKey": "module.m1.guided3.desc",
+          "sql": "SELECT name, salary FROM employees\nORDER BY salary DESC;"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m1_q1",
+        "promptKey": "module.m1.quiz1.prompt",
+        "questionTag": "miniCheck",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m1.quiz1.exp"
+      },
+      {
+        "id": "m1_q2",
+        "promptKey": "module.m1.quiz2.prompt",
+        "questionTag": "miniCheck",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.quiz2.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m1.quiz2.exp"
+      },
+      {
+        "id": "m1_q3",
+        "promptKey": "module.m1.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.quiz3.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m1.quiz3.exp"
+      },
+      {
+        "id": "m1_q4",
+        "promptKey": "module.m1.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.quiz4.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m1.quiz4.exp"
+      },
+      {
+        "id": "m1_q5",
+        "promptKey": "module.m1.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.quiz5.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m1.quiz5.exp"
+      },
+      {
+        "id": "m1_df1",
+        "promptKey": "module.m1.dragfill1.prompt",
+        "explanationKey": "module.m1.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT ___ FROM ___\nWHERE ___ = 'Istanbul';",
+          "tokens": [
+            "*",
+            "customers",
+            "city",
+            "name",
+            "orders",
+            "id"
+          ],
+          "correctTokens": [
+            "*",
+            "customers",
+            "city"
+          ]
+        }
+      },
+      {
+        "id": "m1_q_err1",
+        "promptKey": "module.m1.err1.prompt",
+        "questionTag": "errorDetection",
+        "sqlPreview": "SELEC * FORM students;",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.err1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.err1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.err1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m1.err1.exp"
+      },
+      {
+        "id": "m1_q_out1",
+        "promptKey": "module.m1.out1.prompt",
+        "questionTag": "outputPrediction",
+        "sqlPreview": "SELECT name FROM students\nLIMIT 2;",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m1.out1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m1.out1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m1.out1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m1.out1.exp"
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m1_c1",
+        "moduleID": "m1_select_basics",
+        "titleKey": "module.m1.challenge1.title",
+        "promptKey": "module.m1.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT);",
+          "INSERT INTO students (id, name) VALUES (1, 'Ada');",
+          "INSERT INTO students (id, name) VALUES (2, 'Lina');",
+          "INSERT INTO students (id, name) VALUES (3, 'Ken');"
+        ],
+        "starterSQL": "SELECT id, name FROM students;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "id",
+            "name"
+          ],
+          "expectedRows": [
+            [
+              "1",
+              "Ada"
+            ],
+            [
+              "2",
+              "Lina"
+            ],
+            [
+              "3",
+              "Ken"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m1.challenge1.hint",
+        "points": 50
+      },
+      {
+        "id": "m1_c2",
+        "moduleID": "m1_select_basics",
+        "titleKey": "module.m1.challenge2.title",
+        "promptKey": "module.m1.challenge2.prompt",
+        "setupSQL": [
+          "CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, price REAL);",
+          "INSERT INTO products (id, name, price) VALUES (1, 'Keyboard', 30.0);",
+          "INSERT INTO products (id, name, price) VALUES (2, 'Monitor', 150.0);"
+        ],
+        "starterSQL": "SELECT * FROM products;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "id",
+            "name",
+            "price"
+          ],
+          "expectedRows": [
+            [
+              "1",
+              "Keyboard",
+              "30.0"
+            ],
+            [
+              "2",
+              "Monitor",
+              "150.0"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m1.challenge2.hint",
+        "points": 40
+      },
+      {
+        "id": "m1_c3",
+        "moduleID": "m1_select_basics",
+        "titleKey": "module.m1.challenge3.title",
+        "promptKey": "module.m1.challenge3.prompt",
+        "setupSQL": [
+          "CREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT, department TEXT, salary REAL);",
+          "INSERT INTO employees (id, name, department, salary) VALUES (1, 'Ada', 'Engineering', 75000);",
+          "INSERT INTO employees (id, name, department, salary) VALUES (2, 'Lina', 'Design', 60000);"
+        ],
+        "starterSQL": "SELECT name, department FROM employees;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "department"
+          ],
+          "expectedRows": [
+            [
+              "Ada",
+              "Engineering"
+            ],
+            [
+              "Lina",
+              "Design"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m1.challenge3.hint",
+        "points": 40
+      }
+    ]
+  },
+  {
+    "id": "m2_filter_sort",
+    "order": 2,
+    "level": "beginner",
+    "titleKey": "module.m2.title",
+    "descriptionKey": "module.m2.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m2.obj1",
+        "module.m2.obj2"
+      ],
+      "bodyKey": "module.m2.body",
+      "realWorldUseCaseKey": "module.m2.realworld",
+      "outcomeKey": "module.m2.outcome",
+      "exampleQueries": [
+        {
+          "sql": "SELECT * FROM customers WHERE city = 'Istanbul';",
+          "explanationKey": "module.m2.ex1.exp"
+        },
+        {
+          "sql": "SELECT name FROM customers ORDER BY name DESC LIMIT 2;",
+          "explanationKey": "module.m2.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m2_q1",
+        "promptKey": "module.m2.quiz1.prompt",
+        "questionTag": "miniCheck",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m2.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m2.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m2.quiz1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m2.quiz1.exp"
+      },
+      {
+        "id": "m2_q2",
+        "promptKey": "module.m2.quiz2.prompt",
+        "questionTag": "miniCheck",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m2.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m2.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m2.quiz2.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m2.quiz2.exp"
+      },
+      {
+        "id": "m2_q3",
+        "promptKey": "module.m2.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m2.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m2.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m2.quiz3.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m2.quiz3.exp"
+      },
+      {
+        "id": "m2_q4",
+        "promptKey": "module.m2.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m2.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m2.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m2.quiz4.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m2.quiz4.exp"
+      },
+      {
+        "id": "m2_q5",
+        "promptKey": "module.m2.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m2.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m2.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m2.quiz5.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m2.quiz5.exp"
+      },
+      {
+        "id": "m2_df1",
+        "promptKey": "module.m2.dragfill1.prompt",
+        "explanationKey": "module.m2.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT name, age FROM users\nWHERE ___ > 18\nORDER BY ___ DESC\nLIMIT ___;",
+          "tokens": [
+            "age",
+            "name",
+            "10",
+            "id",
+            "city",
+            "5"
+          ],
+          "correctTokens": [
+            "age",
+            "name",
+            "10"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m2_c1",
+        "moduleID": "m2_filter_sort",
+        "titleKey": "module.m2.challenge1.title",
+        "promptKey": "module.m2.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT, city TEXT);",
+          "INSERT INTO customers (id, name, city) VALUES (1, 'Ada', 'Istanbul');",
+          "INSERT INTO customers (id, name, city) VALUES (2, 'Lina', 'Ankara');",
+          "INSERT INTO customers (id, name, city) VALUES (3, 'Mert', 'Istanbul');"
+        ],
+        "starterSQL": "SELECT name FROM customers WHERE city = 'Istanbul' ORDER BY name;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name"
+          ],
+          "expectedRows": [
+            [
+              "Ada"
+            ],
+            [
+              "Mert"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m2.challenge1.hint",
+        "points": 50
+      },
+      {
+        "id": "m2_c2",
+        "moduleID": "m2_filter_sort",
+        "titleKey": "module.m2.challenge2.title",
+        "promptKey": "module.m2.challenge2.prompt",
+        "setupSQL": [
+          "CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, price REAL);",
+          "INSERT INTO products (id, name, price) VALUES (1, 'Keyboard', 30.0);",
+          "INSERT INTO products (id, name, price) VALUES (2, 'Monitor', 150.0);",
+          "INSERT INTO products (id, name, price) VALUES (3, 'Mouse', 25.0);",
+          "INSERT INTO products (id, name, price) VALUES (4, 'Webcam', 80.0);"
+        ],
+        "starterSQL": "SELECT name, price FROM products WHERE price > 50 ORDER BY price DESC;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "price"
+          ],
+          "expectedRows": [
+            [
+              "Monitor",
+              "150.0"
+            ],
+            [
+              "Webcam",
+              "80.0"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m2.challenge2.hint",
+        "points": 50
+      },
+      {
+        "id": "m2_c3",
+        "moduleID": "m2_filter_sort",
+        "titleKey": "module.m2.challenge3.title",
+        "promptKey": "module.m2.challenge3.prompt",
+        "setupSQL": [
+          "CREATE TABLE scores (id INTEGER PRIMARY KEY, name TEXT, score INTEGER);",
+          "INSERT INTO scores (id, name, score) VALUES (1, 'Ada', 95);",
+          "INSERT INTO scores (id, name, score) VALUES (2, 'Lina', 72);",
+          "INSERT INTO scores (id, name, score) VALUES (3, 'Ken', 88);",
+          "INSERT INTO scores (id, name, score) VALUES (4, 'Mert', 61);",
+          "INSERT INTO scores (id, name, score) VALUES (5, 'Zoe', 79);"
+        ],
+        "starterSQL": "SELECT name, score FROM scores ORDER BY score DESC LIMIT 3;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "score"
+          ],
+          "expectedRows": [
+            [
+              "Ada",
+              "95"
+            ],
+            [
+              "Ken",
+              "88"
+            ],
+            [
+              "Zoe",
+              "79"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m2.challenge3.hint",
+        "points": 60
+      }
+    ]
+  },
+  {
+    "id": "m3_modify_data",
+    "order": 3,
+    "level": "beginner",
+    "titleKey": "module.m3.title",
+    "descriptionKey": "module.m3.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m3.obj1",
+        "module.m3.obj2"
+      ],
+      "bodyKey": "module.m3.body",
+      "exampleQueries": [
+        {
+          "sql": "INSERT INTO products (id, name) VALUES (4, 'Mouse');",
+          "explanationKey": "module.m3.ex1.exp"
+        },
+        {
+          "sql": "UPDATE products SET name = 'Laptop Pro' WHERE id = 1;",
+          "explanationKey": "module.m3.ex3.exp"
+        },
+        {
+          "sql": "DELETE FROM products WHERE id = 2;",
+          "explanationKey": "module.m3.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m3_q1",
+        "promptKey": "module.m3.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m3.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m3.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m3.quiz1.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m3.quiz1.exp"
+      },
+      {
+        "id": "m3_q2",
+        "promptKey": "module.m3.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m3.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m3.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m3.quiz2.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m3.quiz2.exp"
+      },
+      {
+        "id": "m3_q3",
+        "promptKey": "module.m3.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m3.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m3.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m3.quiz3.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m3.quiz3.exp"
+      },
+      {
+        "id": "m3_q4",
+        "promptKey": "module.m3.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m3.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m3.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m3.quiz4.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m3.quiz4.exp"
+      },
+      {
+        "id": "m3_q5",
+        "promptKey": "module.m3.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m3.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m3.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m3.quiz5.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m3.quiz5.exp"
+      },
+      {
+        "id": "m3_df1",
+        "promptKey": "module.m3.dragfill1.prompt",
+        "explanationKey": "module.m3.dragfill1.exp",
+        "dragFill": {
+          "template": "INSERT INTO ___ (name, price)\nVALUES (___, 29.99);",
+          "tokens": [
+            "products",
+            "items",
+            "'Keyboard'",
+            "'Monitor'",
+            "25.00",
+            "SELECT"
+          ],
+          "correctTokens": [
+            "products",
+            "'Keyboard'"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m3_c1",
+        "moduleID": "m3_modify_data",
+        "titleKey": "module.m3.challenge1.title",
+        "promptKey": "module.m3.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT);",
+          "INSERT INTO products (id, name) VALUES (1, 'Keyboard');",
+          "INSERT INTO products (id, name) VALUES (2, 'Monitor');",
+          "INSERT INTO products (id, name) VALUES (3, 'Mouse');"
+        ],
+        "starterSQL": "DELETE FROM products WHERE id = 3;",
+        "validation": {
+          "type": "tableRowCount",
+          "expectedColumns": null,
+          "expectedRows": null,
+          "table": "products",
+          "expectedCount": 2
+        },
+        "hintKey": "module.m3.challenge1.hint",
+        "points": 60
+      }
+    ]
+  },
+  {
+    "id": "m4_schema_ops",
+    "order": 4,
+    "level": "beginner",
+    "titleKey": "module.m4.title",
+    "descriptionKey": "module.m4.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m4.obj1",
+        "module.m4.obj2"
+      ],
+      "bodyKey": "module.m4.body",
+      "exampleQueries": [
+        {
+          "sql": "CREATE TABLE logs (id INTEGER PRIMARY KEY, message TEXT);",
+          "explanationKey": "module.m4.ex1.exp"
+        },
+        {
+          "sql": "DROP TABLE logs;",
+          "explanationKey": "module.m4.ex2.exp"
+        },
+        {
+          "sql": "ALTER TABLE logs ADD COLUMN level TEXT DEFAULT 'info';",
+          "explanationKey": "module.m4.ex3.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m4_q1",
+        "promptKey": "module.m4.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m4.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m4.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m4.quiz1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m4.quiz1.exp"
+      },
+      {
+        "id": "m4_q2",
+        "promptKey": "module.m4.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m4.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m4.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m4.quiz2.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m4.quiz2.exp"
+      },
+      {
+        "id": "m4_q3",
+        "promptKey": "module.m4.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m4.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m4.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m4.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m4.quiz3.exp"
+      },
+      {
+        "id": "m4_q4",
+        "promptKey": "module.m4.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m4.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m4.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m4.quiz4.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m4.quiz4.exp"
+      },
+      {
+        "id": "m4_q5",
+        "promptKey": "module.m4.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m4.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m4.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m4.quiz5.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m4.quiz5.exp"
+      },
+      {
+        "id": "m4_df1",
+        "promptKey": "module.m4.dragfill1.prompt",
+        "explanationKey": "module.m4.dragfill1.exp",
+        "dragFill": {
+          "template": "CREATE TABLE ___ (\n  id INTEGER PRIMARY KEY,\n  ___ TEXT NOT NULL\n);",
+          "tokens": [
+            "users",
+            "orders",
+            "name",
+            "price",
+            "INTEGER",
+            "REAL"
+          ],
+          "correctTokens": [
+            "users",
+            "name"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m4_c1",
+        "moduleID": "m4_schema_ops",
+        "titleKey": "module.m4.challenge1.title",
+        "promptKey": "module.m4.challenge1.prompt",
+        "setupSQL": [],
+        "starterSQL": "CREATE TABLE categories (id INTEGER PRIMARY KEY, name TEXT);",
+        "validation": {
+          "type": "tableRowCount",
+          "expectedColumns": null,
+          "expectedRows": null,
+          "table": "categories",
+          "expectedCount": 0
+        },
+        "hintKey": "module.m4.challenge1.hint",
+        "points": 70
+      }
+    ]
+  },
+  {
+    "id": "m5_join_basics",
+    "order": 5,
+    "level": "intermediate",
+    "titleKey": "module.m5.title",
+    "descriptionKey": "module.m5.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m5.obj1",
+        "module.m5.obj2"
+      ],
+      "bodyKey": "module.m5.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT c.name, o.total FROM customers c JOIN orders o ON c.id = o.customer_id;",
+          "explanationKey": "module.m5.ex1.exp"
+        },
+        {
+          "sql": "SELECT c.name, o.total FROM customers c LEFT JOIN orders o ON c.id = o.customer_id;",
+          "explanationKey": "module.m5.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m5_q1",
+        "promptKey": "module.m5.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m5.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m5.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m5.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m5.quiz1.exp"
+      },
+      {
+        "id": "m5_q2",
+        "promptKey": "module.m5.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m5.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m5.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m5.quiz2.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m5.quiz2.exp"
+      },
+      {
+        "id": "m5_q3",
+        "promptKey": "module.m5.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m5.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m5.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m5.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m5.quiz3.exp"
+      },
+      {
+        "id": "m5_q4",
+        "promptKey": "module.m5.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m5.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m5.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m5.quiz4.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m5.quiz4.exp"
+      },
+      {
+        "id": "m5_q5",
+        "promptKey": "module.m5.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m5.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m5.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m5.quiz5.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m5.quiz5.exp"
+      },
+      {
+        "id": "m5_df1",
+        "promptKey": "module.m5.dragfill1.prompt",
+        "explanationKey": "module.m5.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT o.id, c.name\nFROM orders AS o\n___ JOIN ___ AS c\n  ON o.customer_id = c.id;",
+          "tokens": [
+            "INNER",
+            "LEFT",
+            "customers",
+            "orders",
+            "products",
+            "RIGHT"
+          ],
+          "correctTokens": [
+            "INNER",
+            "customers"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m5_c1",
+        "moduleID": "m5_join_basics",
+        "titleKey": "module.m5.challenge1.title",
+        "promptKey": "module.m5.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);",
+          "CREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER, total REAL);",
+          "INSERT INTO customers (id, name) VALUES (1, 'Ada');",
+          "INSERT INTO customers (id, name) VALUES (2, 'Lina');",
+          "INSERT INTO orders (id, customer_id, total) VALUES (1, 1, 100);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (2, 2, 50);"
+        ],
+        "starterSQL": "SELECT c.name, o.total FROM customers c JOIN orders o ON c.id = o.customer_id ORDER BY c.name;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "total"
+          ],
+          "expectedRows": [
+            [
+              "Ada",
+              "100.0"
+            ],
+            [
+              "Lina",
+              "50.0"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m5.challenge1.hint",
+        "points": 80
+      }
+    ]
+  },
+  {
+    "id": "m6_groupby_having",
+    "order": 6,
+    "level": "intermediate",
+    "titleKey": "module.m6.title",
+    "descriptionKey": "module.m6.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m6.obj1",
+        "module.m6.obj2"
+      ],
+      "bodyKey": "module.m6.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT customer_id, SUM(total) FROM orders GROUP BY customer_id;",
+          "explanationKey": "module.m6.ex1.exp"
+        },
+        {
+          "sql": "SELECT customer_id, SUM(total) AS s FROM orders GROUP BY customer_id HAVING s > 100;",
+          "explanationKey": "module.m6.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m6_q1",
+        "promptKey": "module.m6.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m6.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m6.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m6.quiz1.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m6.quiz1.exp"
+      },
+      {
+        "id": "m6_q2",
+        "promptKey": "module.m6.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m6.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m6.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m6.quiz2.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m6.quiz2.exp"
+      },
+      {
+        "id": "m6_q3",
+        "promptKey": "module.m6.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m6.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m6.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m6.quiz3.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m6.quiz3.exp"
+      },
+      {
+        "id": "m6_q4",
+        "promptKey": "module.m6.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m6.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m6.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m6.quiz4.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m6.quiz4.exp"
+      },
+      {
+        "id": "m6_q5",
+        "promptKey": "module.m6.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m6.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m6.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m6.quiz5.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m6.quiz5.exp"
+      },
+      {
+        "id": "m6_df1",
+        "promptKey": "module.m6.dragfill1.prompt",
+        "explanationKey": "module.m6.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT department, ___(salary) AS avg_sal\nFROM employees\nGROUP BY ___\nHAVING COUNT(*) > ___;",
+          "tokens": [
+            "AVG",
+            "SUM",
+            "department",
+            "salary",
+            "2",
+            "1"
+          ],
+          "correctTokens": [
+            "AVG",
+            "department",
+            "2"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m6_c1",
+        "moduleID": "m6_groupby_having",
+        "titleKey": "module.m6.challenge1.title",
+        "promptKey": "module.m6.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER, total REAL);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (1, 1, 120);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (2, 1, 80);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (3, 2, 60);"
+        ],
+        "starterSQL": "SELECT customer_id, SUM(total) AS total_sum FROM orders GROUP BY customer_id HAVING total_sum > 100 ORDER BY customer_id;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "customer_id",
+            "total_sum"
+          ],
+          "expectedRows": [
+            [
+              "1",
+              "200.0"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m6.challenge1.hint",
+        "points": 90
+      }
+    ]
+  },
+  {
+    "id": "m7_subqueries",
+    "order": 7,
+    "level": "intermediate",
+    "titleKey": "module.m7.title",
+    "descriptionKey": "module.m7.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m7.obj1",
+        "module.m7.obj2"
+      ],
+      "bodyKey": "module.m7.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT name FROM customers WHERE id IN (SELECT customer_id FROM orders);",
+          "explanationKey": "module.m7.ex1.exp"
+        },
+        {
+          "sql": "SELECT name FROM customers WHERE id = (SELECT customer_id FROM orders ORDER BY total DESC LIMIT 1);",
+          "explanationKey": "module.m7.ex2.exp"
+        },
+        {
+          "sql": "SELECT name FROM customers WHERE EXISTS (SELECT 1 FROM orders WHERE orders.customer_id = customers.id);",
+          "explanationKey": "module.m7.ex3.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m7_q1",
+        "promptKey": "module.m7.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m7.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m7.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m7.quiz1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m7.quiz1.exp"
+      },
+      {
+        "id": "m7_q2",
+        "promptKey": "module.m7.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m7.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m7.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m7.quiz2.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m7.quiz2.exp"
+      },
+      {
+        "id": "m7_q3",
+        "promptKey": "module.m7.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m7.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m7.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m7.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m7.quiz3.exp"
+      },
+      {
+        "id": "m7_q4",
+        "promptKey": "module.m7.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m7.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m7.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m7.quiz4.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m7.quiz4.exp"
+      },
+      {
+        "id": "m7_q5",
+        "promptKey": "module.m7.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m7.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m7.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m7.quiz5.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m7.quiz5.exp"
+      },
+      {
+        "id": "m7_df1",
+        "promptKey": "module.m7.dragfill1.prompt",
+        "explanationKey": "module.m7.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT name FROM products\nWHERE price > (\n  SELECT ___(price) FROM ___\n);",
+          "tokens": [
+            "AVG",
+            "MAX",
+            "products",
+            "orders",
+            "MIN",
+            "SUM"
+          ],
+          "correctTokens": [
+            "AVG",
+            "products"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m7_c1",
+        "moduleID": "m7_subqueries",
+        "titleKey": "module.m7.challenge1.title",
+        "promptKey": "module.m7.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);",
+          "CREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER, total REAL);",
+          "INSERT INTO customers (id, name) VALUES (1, 'Ada');",
+          "INSERT INTO customers (id, name) VALUES (2, 'Lina');",
+          "INSERT INTO customers (id, name) VALUES (3, 'Mert');",
+          "INSERT INTO orders (id, customer_id, total) VALUES (1, 1, 100);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (2, 2, 250);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (3, 3, 120);"
+        ],
+        "starterSQL": "SELECT name FROM customers WHERE id = (SELECT customer_id FROM orders ORDER BY total DESC LIMIT 1);",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name"
+          ],
+          "expectedRows": [
+            [
+              "Lina"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m7.challenge1.hint",
+        "points": 90
+      }
+    ]
+  },
+  {
+    "id": "m8_mini_project",
+    "order": 8,
+    "level": "intermediate",
+    "titleKey": "module.m8.title",
+    "descriptionKey": "module.m8.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m8.obj1",
+        "module.m8.obj2"
+      ],
+      "bodyKey": "module.m8.body",
+      "exampleQueries": [
+        {
+          "sql": "UPDATE inventory SET stock = stock - 1 WHERE id = 1;",
+          "explanationKey": "module.m8.ex1.exp"
+        },
+        {
+          "sql": "SELECT name, stock FROM inventory ORDER BY stock DESC;",
+          "explanationKey": "module.m8.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m8_q1",
+        "promptKey": "module.m8.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m8.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m8.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m8.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m8.quiz1.exp"
+      },
+      {
+        "id": "m8_q2",
+        "promptKey": "module.m8.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m8.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m8.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m8.quiz2.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m8.quiz2.exp"
+      },
+      {
+        "id": "m8_q3",
+        "promptKey": "module.m8.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m8.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m8.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m8.quiz3.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m8.quiz3.exp"
+      },
+      {
+        "id": "m8_q4",
+        "promptKey": "module.m8.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m8.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m8.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m8.quiz4.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m8.quiz4.exp"
+      },
+      {
+        "id": "m8_q5",
+        "promptKey": "module.m8.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m8.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m8.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m8.quiz5.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m8.quiz5.exp"
+      },
+      {
+        "id": "m8_df1",
+        "promptKey": "module.m8.dragfill1.prompt",
+        "explanationKey": "module.m8.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT c.name, COUNT(o.id) AS order_count\nFROM ___ AS c\nLEFT JOIN orders AS o ON c.id = o.___\nGROUP BY c.name\nORDER BY order_count ___;",
+          "tokens": [
+            "customers",
+            "products",
+            "customer_id",
+            "id",
+            "DESC",
+            "ASC"
+          ],
+          "correctTokens": [
+            "customers",
+            "customer_id",
+            "DESC"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m8_c1",
+        "moduleID": "m8_mini_project",
+        "titleKey": "module.m8.challenge1.title",
+        "promptKey": "module.m8.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, stock INTEGER);",
+          "INSERT INTO inventory (id, name, stock) VALUES (1, 'Keyboard', 5);",
+          "INSERT INTO inventory (id, name, stock) VALUES (2, 'Mouse', 8);"
+        ],
+        "starterSQL": "SELECT name, stock FROM inventory ORDER BY stock DESC;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "stock"
+          ],
+          "expectedRows": [
+            [
+              "Mouse",
+              "8"
+            ],
+            [
+              "Keyboard",
+              "5"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m8.challenge1.hint",
+        "points": 110
+      }
+    ]
+  },
+  {
+    "id": "m9_case_when",
+    "order": 9,
+    "level": "intermediate",
+    "titleKey": "module.m9.title",
+    "descriptionKey": "module.m9.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m9.obj1",
+        "module.m9.obj2"
+      ],
+      "bodyKey": "module.m9.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT name, CASE WHEN score >= 90 THEN 'A' WHEN score >= 70 THEN 'B' ELSE 'C' END AS grade FROM students;",
+          "explanationKey": "module.m9.ex1.exp"
+        },
+        {
+          "sql": "SELECT name, CASE WHEN stock > 10 THEN 'In Stock' ELSE 'Low Stock' END AS status FROM inventory;",
+          "explanationKey": "module.m9.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m9_q1",
+        "promptKey": "module.m9.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m9.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m9.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m9.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m9.quiz1.exp"
+      },
+      {
+        "id": "m9_q2",
+        "promptKey": "module.m9.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m9.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m9.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m9.quiz2.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m9.quiz2.exp"
+      },
+      {
+        "id": "m9_q3",
+        "promptKey": "module.m9.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m9.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m9.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m9.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m9.quiz3.exp"
+      },
+      {
+        "id": "m9_q4",
+        "promptKey": "module.m9.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m9.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m9.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m9.quiz4.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m9.quiz4.exp"
+      },
+      {
+        "id": "m9_q5",
+        "promptKey": "module.m9.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m9.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m9.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m9.quiz5.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m9.quiz5.exp"
+      },
+      {
+        "id": "m9_df1",
+        "promptKey": "module.m9.dragfill1.prompt",
+        "explanationKey": "module.m9.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT name,\n  CASE\n    WHEN score >= 90 THEN ___\n    WHEN score >= 60 THEN 'Pass'\n    ___ 'Fail'\n  END AS result\nFROM students;",
+          "tokens": [
+            "'Excellent'",
+            "'Good'",
+            "ELSE",
+            "WHEN",
+            "THEN",
+            "END"
+          ],
+          "correctTokens": [
+            "'Excellent'",
+            "ELSE"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m9_c1",
+        "moduleID": "m9_case_when",
+        "titleKey": "module.m9.challenge1.title",
+        "promptKey": "module.m9.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, price REAL);",
+          "INSERT INTO products (id, name, price) VALUES (1, 'Keyboard', 30);",
+          "INSERT INTO products (id, name, price) VALUES (2, 'Monitor', 150);",
+          "INSERT INTO products (id, name, price) VALUES (3, 'Mouse', 25);"
+        ],
+        "starterSQL": "SELECT name, CASE WHEN price > 100 THEN 'Expensive' ELSE 'Affordable' END AS label FROM products ORDER BY name;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "label"
+          ],
+          "expectedRows": [
+            [
+              "Keyboard",
+              "Affordable"
+            ],
+            [
+              "Monitor",
+              "Expensive"
+            ],
+            [
+              "Mouse",
+              "Affordable"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m9.challenge1.hint",
+        "points": 80
+      }
+    ]
+  },
+  {
+    "id": "m10_union",
+    "order": 10,
+    "level": "intermediate",
+    "titleKey": "module.m10.title",
+    "descriptionKey": "module.m10.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m10.obj1",
+        "module.m10.obj2"
+      ],
+      "bodyKey": "module.m10.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT name FROM customers UNION SELECT name FROM employees;",
+          "explanationKey": "module.m10.ex1.exp"
+        },
+        {
+          "sql": "SELECT name FROM customers UNION ALL SELECT name FROM leads;",
+          "explanationKey": "module.m10.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m10_q1",
+        "promptKey": "module.m10.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m10.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m10.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m10.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m10.quiz1.exp"
+      },
+      {
+        "id": "m10_q2",
+        "promptKey": "module.m10.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m10.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m10.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m10.quiz2.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m10.quiz2.exp"
+      },
+      {
+        "id": "m10_q3",
+        "promptKey": "module.m10.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m10.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m10.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m10.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m10.quiz3.exp"
+      },
+      {
+        "id": "m10_q4",
+        "promptKey": "module.m10.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m10.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m10.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m10.quiz4.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m10.quiz4.exp"
+      },
+      {
+        "id": "m10_q5",
+        "promptKey": "module.m10.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m10.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m10.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m10.quiz5.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m10.quiz5.exp"
+      },
+      {
+        "id": "m10_df1",
+        "promptKey": "module.m10.dragfill1.prompt",
+        "explanationKey": "module.m10.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT name FROM customers\n___\nSELECT name FROM suppliers\nORDER BY ___ ASC;",
+          "tokens": [
+            "UNION",
+            "UNION ALL",
+            "INTERSECT",
+            "name",
+            "id",
+            "price"
+          ],
+          "correctTokens": [
+            "UNION",
+            "name"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m10_c1",
+        "moduleID": "m10_union",
+        "titleKey": "module.m10.challenge1.title",
+        "promptKey": "module.m10.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);",
+          "CREATE TABLE suppliers (id INTEGER PRIMARY KEY, name TEXT);",
+          "INSERT INTO customers (id, name) VALUES (1, 'Ada');",
+          "INSERT INTO customers (id, name) VALUES (2, 'Lina');",
+          "INSERT INTO suppliers (id, name) VALUES (1, 'Lina');",
+          "INSERT INTO suppliers (id, name) VALUES (2, 'Mert');"
+        ],
+        "starterSQL": "SELECT name FROM customers UNION SELECT name FROM suppliers ORDER BY name;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name"
+          ],
+          "expectedRows": [
+            [
+              "Ada"
+            ],
+            [
+              "Lina"
+            ],
+            [
+              "Mert"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m10.challenge1.hint",
+        "points": 80
+      }
+    ]
+  },
+  {
+    "id": "m11_cte",
+    "order": 11,
+    "level": "advanced",
+    "titleKey": "module.m11.title",
+    "descriptionKey": "module.m11.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m11.obj1",
+        "module.m11.obj2"
+      ],
+      "bodyKey": "module.m11.body",
+      "exampleQueries": [
+        {
+          "sql": "WITH high_earners AS (SELECT name FROM employees WHERE salary > 50000) SELECT * FROM high_earners;",
+          "explanationKey": "module.m11.ex1.exp"
+        },
+        {
+          "sql": "WITH totals AS (SELECT customer_id, SUM(total) AS t FROM orders GROUP BY customer_id) SELECT customer_id, t FROM totals WHERE t > 100;",
+          "explanationKey": "module.m11.ex2.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m11_q1",
+        "promptKey": "module.m11.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m11.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m11.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m11.quiz1.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m11.quiz1.exp"
+      },
+      {
+        "id": "m11_q2",
+        "promptKey": "module.m11.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m11.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m11.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m11.quiz2.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m11.quiz2.exp"
+      },
+      {
+        "id": "m11_q3",
+        "promptKey": "module.m11.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m11.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m11.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m11.quiz3.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m11.quiz3.exp"
+      },
+      {
+        "id": "m11_q4",
+        "promptKey": "module.m11.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m11.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m11.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m11.quiz4.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m11.quiz4.exp"
+      },
+      {
+        "id": "m11_q5",
+        "promptKey": "module.m11.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m11.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m11.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m11.quiz5.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m11.quiz5.exp"
+      },
+      {
+        "id": "m11_df1",
+        "promptKey": "module.m11.dragfill1.prompt",
+        "explanationKey": "module.m11.dragfill1.exp",
+        "dragFill": {
+          "template": "WITH ___ AS (\n  SELECT department, AVG(salary) AS avg_sal\n  FROM employees\n  GROUP BY department\n)\nSELECT * FROM ___;",
+          "tokens": [
+            "dept_avg",
+            "employees",
+            "salaries",
+            "totals",
+            "orders",
+            "dept_avg"
+          ],
+          "correctTokens": [
+            "dept_avg",
+            "dept_avg"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m11_c1",
+        "moduleID": "m11_cte",
+        "titleKey": "module.m11.challenge1.title",
+        "promptKey": "module.m11.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE orders (id INTEGER PRIMARY KEY, customer_id INTEGER, total REAL);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (1, 1, 150);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (2, 2, 80);",
+          "INSERT INTO orders (id, customer_id, total) VALUES (3, 3, 200);"
+        ],
+        "starterSQL": "WITH big_orders AS (SELECT customer_id, total FROM orders WHERE total > 100) SELECT customer_id, total FROM big_orders ORDER BY total DESC;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "customer_id",
+            "total"
+          ],
+          "expectedRows": [
+            [
+              "3",
+              "200.0"
+            ],
+            [
+              "1",
+              "150.0"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m11.challenge1.hint",
+        "points": 90
+      }
+    ]
+  },
+  {
+    "id": "m12_window_functions",
+    "order": 12,
+    "level": "advanced",
+    "titleKey": "module.m12.title",
+    "descriptionKey": "module.m12.desc",
+    "lesson": {
+      "objectiveKeys": [
+        "module.m12.obj1",
+        "module.m12.obj2"
+      ],
+      "bodyKey": "module.m12.body",
+      "exampleQueries": [
+        {
+          "sql": "SELECT name, score, ROW_NUMBER() OVER (ORDER BY score DESC) AS rank FROM students;",
+          "explanationKey": "module.m12.ex1.exp"
+        },
+        {
+          "sql": "SELECT name, salary, AVG(salary) OVER () AS avg_salary FROM employees;",
+          "explanationKey": "module.m12.ex2.exp"
+        },
+        {
+          "sql": "SELECT name, score, RANK() OVER (ORDER BY score DESC) AS rank FROM students;",
+          "explanationKey": "module.m12.ex3.exp"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "m12_q1",
+        "promptKey": "module.m12.quiz1.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m12.quiz1.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m12.quiz1.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m12.quiz1.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m12.quiz1.exp"
+      },
+      {
+        "id": "m12_q2",
+        "promptKey": "module.m12.quiz2.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m12.quiz2.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m12.quiz2.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m12.quiz2.c"
+          }
+        ],
+        "correctOptionID": "c",
+        "explanationKey": "module.m12.quiz2.exp"
+      },
+      {
+        "id": "m12_q3",
+        "promptKey": "module.m12.quiz3.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m12.quiz3.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m12.quiz3.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m12.quiz3.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m12.quiz3.exp"
+      },
+      {
+        "id": "m12_q4",
+        "promptKey": "module.m12.quiz4.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m12.quiz4.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m12.quiz4.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m12.quiz4.c"
+          }
+        ],
+        "correctOptionID": "a",
+        "explanationKey": "module.m12.quiz4.exp"
+      },
+      {
+        "id": "m12_q5",
+        "promptKey": "module.m12.quiz5.prompt",
+        "options": [
+          {
+            "id": "a",
+            "textKey": "module.m12.quiz5.a"
+          },
+          {
+            "id": "b",
+            "textKey": "module.m12.quiz5.b"
+          },
+          {
+            "id": "c",
+            "textKey": "module.m12.quiz5.c"
+          }
+        ],
+        "correctOptionID": "b",
+        "explanationKey": "module.m12.quiz5.exp"
+      },
+      {
+        "id": "m12_df1",
+        "promptKey": "module.m12.dragfill1.prompt",
+        "explanationKey": "module.m12.dragfill1.exp",
+        "dragFill": {
+          "template": "SELECT name, salary,\n  ___(salary) OVER (PARTITION BY ___)\n  AS dept_rank\nFROM employees;",
+          "tokens": [
+            "RANK",
+            "ROW_NUMBER",
+            "department",
+            "salary",
+            "id",
+            "COUNT"
+          ],
+          "correctTokens": [
+            "RANK",
+            "department"
+          ]
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "m12_c1",
+        "moduleID": "m12_window_functions",
+        "titleKey": "module.m12.challenge1.title",
+        "promptKey": "module.m12.challenge1.prompt",
+        "setupSQL": [
+          "CREATE TABLE scores (id INTEGER PRIMARY KEY, name TEXT, score INTEGER);",
+          "INSERT INTO scores (id, name, score) VALUES (1, 'Ada', 95);",
+          "INSERT INTO scores (id, name, score) VALUES (2, 'Lina', 82);",
+          "INSERT INTO scores (id, name, score) VALUES (3, 'Ken', 88);"
+        ],
+        "starterSQL": "SELECT name, ROW_NUMBER() OVER (ORDER BY score DESC) AS rank FROM scores ORDER BY rank;",
+        "validation": {
+          "type": "queryResult",
+          "expectedColumns": [
+            "name",
+            "rank"
+          ],
+          "expectedRows": [
+            [
+              "Ada",
+              "1"
+            ],
+            [
+              "Ken",
+              "2"
+            ],
+            [
+              "Lina",
+              "3"
+            ]
+          ],
+          "table": null,
+          "expectedCount": null
+        },
+        "hintKey": "module.m12.challenge1.hint",
+        "points": 100
+      }
+    ]
+  }
+]

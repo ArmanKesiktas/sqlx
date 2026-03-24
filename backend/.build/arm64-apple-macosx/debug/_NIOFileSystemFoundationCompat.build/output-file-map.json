@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/_NIOFileSystemFoundationCompat/Data+FileSystem.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Data+FileSystem.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Data+FileSystem.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Data+FileSystem~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Data+FileSystem.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Data+FileSystem.dia"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/_NIOFileSystemFoundationCompat/Date+FileInfo.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.dia"
+  }
+}

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "data_analyst",
+    "titleKey": "career.data_analyst.title",
+    "descriptionKey": "career.data_analyst.desc",
+    "targetAudienceKey": "career.data_analyst.audience",
+    "icon": "chart.bar.xaxis",
+    "difficulty": "beginner",
+    "estimatedHours": 8,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m9_case_when",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 2,
+        "titleKey": "career.milestone.data_foundations",
+        "descriptionKey": "career.milestone.data_foundations.desc"
+      },
+      {
+        "moduleCount": 4,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 6,
+        "titleKey": "career.milestone.data_analyst_complete",
+        "descriptionKey": "career.milestone.data_analyst_complete.desc"
+      }
+    ]
+  },
+  {
+    "id": "bi_analyst",
+    "titleKey": "career.bi_analyst.title",
+    "descriptionKey": "career.bi_analyst.desc",
+    "targetAudienceKey": "career.bi_analyst.audience",
+    "icon": "chart.pie",
+    "difficulty": "intermediate",
+    "estimatedHours": 12,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m9_case_when",
+      "m10_union",
+      "m11_cte",
+      "m12_window_functions",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 3,
+        "titleKey": "career.milestone.sql_fundamentals",
+        "descriptionKey": "career.milestone.sql_fundamentals.desc"
+      },
+      {
+        "moduleCount": 5,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 7,
+        "titleKey": "career.milestone.advanced_analytics",
+        "descriptionKey": "career.milestone.advanced_analytics.desc"
+      },
+      {
+        "moduleCount": 9,
+        "titleKey": "career.milestone.bi_complete",
+        "descriptionKey": "career.milestone.bi_complete.desc"
+      }
+    ]
+  },
+  {
+    "id": "backend_dev",
+    "titleKey": "career.backend_dev.title",
+    "descriptionKey": "career.backend_dev.desc",
+    "targetAudienceKey": "career.backend_dev.audience",
+    "icon": "server.rack",
+    "difficulty": "intermediate",
+    "estimatedHours": 14,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m3_modify_data",
+      "m4_schema_ops",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m7_subqueries",
+      "m9_case_when",
+      "m11_cte",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 3,
+        "titleKey": "career.milestone.crud_master",
+        "descriptionKey": "career.milestone.crud_master.desc"
+      },
+      {
+        "moduleCount": 5,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 8,
+        "titleKey": "career.milestone.query_architect",
+        "descriptionKey": "career.milestone.query_architect.desc"
+      },
+      {
+        "moduleCount": 10,
+        "titleKey": "career.milestone.backend_complete",
+        "descriptionKey": "career.milestone.backend_complete.desc"
+      }
+    ]
+  },
+  {
+    "id": "data_engineer",
+    "titleKey": "career.data_engineer.title",
+    "descriptionKey": "career.data_engineer.desc",
+    "targetAudienceKey": "career.data_engineer.audience",
+    "icon": "gearshape.2",
+    "difficulty": "intermediate",
+    "estimatedHours": 15,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m3_modify_data",
+      "m4_schema_ops",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m7_subqueries",
+      "m10_union",
+      "m11_cte",
+      "m12_window_functions",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 3,
+        "titleKey": "career.milestone.data_foundations",
+        "descriptionKey": "career.milestone.data_foundations.desc"
+      },
+      {
+        "moduleCount": 6,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 9,
+        "titleKey": "career.milestone.pipeline_ready",
+        "descriptionKey": "career.milestone.pipeline_ready.desc"
+      },
+      {
+        "moduleCount": 11,
+        "titleKey": "career.milestone.data_engineer_complete",
+        "descriptionKey": "career.milestone.data_engineer_complete.desc"
+      }
+    ]
+  },
+  {
+    "id": "product_analyst",
+    "titleKey": "career.product_analyst.title",
+    "descriptionKey": "career.product_analyst.desc",
+    "targetAudienceKey": "career.product_analyst.audience",
+    "icon": "lightbulb",
+    "difficulty": "intermediate",
+    "estimatedHours": 10,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m9_case_when",
+      "m11_cte",
+      "m12_window_functions",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 3,
+        "titleKey": "career.milestone.sql_fundamentals",
+        "descriptionKey": "career.milestone.sql_fundamentals.desc"
+      },
+      {
+        "moduleCount": 5,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 8,
+        "titleKey": "career.milestone.product_analyst_complete",
+        "descriptionKey": "career.milestone.product_analyst_complete.desc"
+      }
+    ]
+  },
+  {
+    "id": "interview_prep",
+    "titleKey": "career.interview_prep.title",
+    "descriptionKey": "career.interview_prep.desc",
+    "targetAudienceKey": "career.interview_prep.audience",
+    "icon": "briefcase",
+    "difficulty": "advanced",
+    "estimatedHours": 16,
+    "moduleIDs": [
+      "m1_select_basics",
+      "m2_filter_sort",
+      "m5_join_basics",
+      "m6_groupby_having",
+      "m7_subqueries",
+      "m9_case_when",
+      "m10_union",
+      "m11_cte",
+      "m12_window_functions",
+      "m8_mini_project"
+    ],
+    "milestones": [
+      {
+        "moduleCount": 3,
+        "titleKey": "career.milestone.sql_fundamentals",
+        "descriptionKey": "career.milestone.sql_fundamentals.desc"
+      },
+      {
+        "moduleCount": 5,
+        "titleKey": "career.milestone.halfway",
+        "descriptionKey": "career.milestone.halfway.desc"
+      },
+      {
+        "moduleCount": 8,
+        "titleKey": "career.milestone.advanced_ready",
+        "descriptionKey": "career.milestone.advanced_ready.desc"
+      },
+      {
+        "moduleCount": 10,
+        "titleKey": "career.milestone.interview_ready",
+        "descriptionKey": "career.milestone.interview_ready.desc"
+      }
+    ]
+  }
+]

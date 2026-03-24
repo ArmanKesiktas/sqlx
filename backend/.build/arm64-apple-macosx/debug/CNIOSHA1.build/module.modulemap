@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella header "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+    export *
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/master.swiftdeps"
+  },
+  "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/runner.d",
+    "object": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/arman/Desktop/sqlx/backend/.build/arm64-apple-macosx/debug/SQLXBackendPackageTests.build/runner.dia"
+  }
+}

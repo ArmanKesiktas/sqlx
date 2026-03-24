@@ -1,0 +1,4 @@
+module CNIOWASI {
+    umbrella header "/Users/arman/Desktop/sqlx/backend/.build/checkouts/swift-nio/Sources/CNIOWASI/include/CNIOWASI.h"
+    export *
+}
