@@ -31,7 +31,7 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_AI_BACKEND_BASE_URL: http://localhost:8080
-        INFOPLIST_KEY_GEMINI_API_KEY: AIzaSyDs4mIDWGpmn9bNiOWP6RrxiTUoQ76Idko
+        INFOPLIST_KEY_GEMINI_API_KEY: 
         INFOPLIST_KEY_GEMINI_MODEL: gemini-flash-latest
     scheme:
       testTargets:
